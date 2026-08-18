@@ -16,6 +16,44 @@
             transform: translateY(-2px);
             transition: all 0.3s ease;
         }
+        .whatsapp-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-4px);
+    background: #20bd5a;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.whatsapp-icon {
+    font-size: 22px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .whatsapp-btn {
+        right: 15px;
+        bottom: 15px;
+        padding: 13px 17px;
+        font-size: 14px;
+    }
+}
     </style>
 </head>
 <body class="bg-[#0f172a] text-slate-200 font-sans selection:bg-blue-500 selection:text-white">
@@ -57,8 +95,8 @@
                     Welcome to the premiere stateflix workspace layout. Stream media, learn specialized skills, engage with global tasks, and unlock immediate daily payouts.
                 </p>
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a href="#register" class="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-blue-900/30 transition-all text-center">Create Your Free Account</a>
-                    <a href="#earning-hub" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-8 py-4 rounded-xl transition-all text-center">Explore Earning Portals</a>
+                    <a href="https://wa.me/256775148084?text=Hello%20Wiz|Digital|Income|Hub%20am%20interested%20in%20Business%20please%20link%20me%20up" class="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-blue-900/30 transition-all text-center">Create Your Free Account</a>
+                    <a href="https://wa.me/256775148084?text=Hello%20Wiz|Digital|Income|Hub%20am%20interested%20in%20Business%20please%20link%20me%20up" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-8 py-4 rounded-xl transition-all text-center">Explore Earning Portals</a>
                 </div>
             </div>
         </section>
@@ -266,6 +304,13 @@
             </div>
         </section>
     </main>
+<a href="https://wa.me/256775148084?text=Hello%20coach%20am%20interested%20in%20STATEFLIX%20please%20link%20me%20up"
+   class="whatsapp-btn"
+   target="_blank"
+   rel="noopener noreferrer">
+    <span class="whatsapp-icon">💬</span>
+    Chat with us on WhatsApp
+</a>
 
     <!-- Footer Area -->
     <footer class="bg-[#0b0f19] border-t border-slate-900 py-12 text-slate-500 text-sm">
